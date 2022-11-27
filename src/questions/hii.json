@@ -1,0 +1,628 @@
+,
+    {
+        "number":3,
+        "question":"Which method converts JSON data to a JavaScript object",
+
+        "answers":[{
+            "option":"JSON.fromString()",
+            "true":false
+        },{
+            "option":"JSON.toObject()",
+            "true":false
+        },{
+            "option":"JSON.stringify()",
+            "true":false
+        },{
+            "option":"JSON.parse()",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":4,
+        "question":"What is one difference between collections created with Map and collections created with Object",
+
+        "answers":[{
+            "option":"You can iterate over values in a Map in their insertion order.",
+            "true":false
+        },{
+            "option":"You can count the records in a Map with a single method call",
+            "true":true
+        },{
+            "option":"Keys in Maps can be strings",
+            "true":false
+        },{
+            "option":"You can access values in a Map without iterating over the whole collection",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":5,
+        "question":"Which of the following is not a keyword in JavaScript",
+
+        "answers":[{
+            "option":"this",
+            "true":false
+        },{
+            "option":"catch",
+            "true":false
+        },{
+            "option":"array",
+            "true":true
+        },{
+            "option":"function",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":6,
+        "question":"What type of function can have its execution suspended and then resumed at a later point",
+
+        "answers":[{
+            "option":"Generator function",
+            "true":true
+        },{
+            "option":"Arrow function",
+            "true":false
+        },{
+            "option":"Promise function",
+            "true":false
+        },{
+            "option":"Async/Await function",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":7,
+        "question":" If you attempt to call a value as a function but the value is not a function, what kind of error would you get",
+
+        "answers":[{
+            "option":"System error",
+            "true":false
+        },{
+            "option":"Type error",
+            "true":true
+        },{
+            "option":"Syntax error",
+            "true":false
+        },{
+            "option":"Logic error",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":8,
+        "question":"If a function component should always render the same way given the same props, what is a simple performance optimization available for it",
+
+        "answers":[{
+            "option":"Implement the 'UseReducer' Hook",
+            "true":false
+        },{
+            "option":"Implement the 'UseMemo' Hook",
+            "true":false
+        },{
+            "option":"Wrap it in the 'react.memo' higher order component ",
+            "true":true
+        },{
+            "option":"Implement 'componentShouldUpdate() lifecycle method' ",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":9,
+        "question":"What is the testing library most often associated with React",
+
+        "answers":[{
+            "option":"Mocha",
+            "true":false
+        },{
+            "option":"Chai",
+            "true":false
+        },{
+            "option":"Sinon",
+            "true":false
+        },{
+            "option":"Jest",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":10,
+        "question":"How do you handle passing through the component tree without having to pass props down manually at every level",
+
+        "answers":[{
+            "option":"React Context",
+            "true":true
+        },{
+            "option":"React Router",
+            "true":false
+        },{
+            "option":"React Pinpoint",
+            "true":false
+        },{
+            "option":"React Send",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":11,
+        "question":"Why might you use useReducer over useState in a React component",
+
+        "answers":[{
+            "option":"When you want to replace Redux",
+            "true":false
+        },{
+            "option":"when you need to manage more complex state in an app",
+            "true":true
+        },{
+            "option":"when you want to improve performance",
+            "true":false
+        },{
+            "option":"when you want to break your production app",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":12,
+        "question":"What can you use to handle code splitting",
+
+        "answers":[{
+            "option":"React.fallback",
+            "true":false
+        },{
+            "option":"React.split",
+            "true":false
+        },{
+            "option":"React.Memo",
+            "true":false
+        },{
+            "option":"React.Lazy",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":13,
+        "question":"When do you use useLayoutEffect",
+
+        "answers":[{
+            "option":"to optimize for all devices",
+            "true":false
+        },{
+            "option":"to change the layout of the screen",
+            "true":false
+        },{
+            "option":"when you need the browser to paint before the effect runs",
+            "true":true
+        },{
+            "option":"to complete the update",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":14,
+        "question":"When might you use React.PureComponent",
+
+        "answers":[{
+            "option":"when you do not want your component to have props",
+            "true":false
+        },{
+            "option":"when you want a default implementation of shouldComponentUpdate()",
+            "true":true
+        },{
+            "option":"when you do not want your component to have state",
+            "true":false
+        },{
+            "option":"when you have sibling components that need to be compared",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":15,
+        "question":"A representation of a user interface that is kept in memory and is synced with the 'real' DOM is called what",
+
+        "answers":[{
+            "option":"DOM",
+            "true":false
+        },{
+            "option":"virtual DOM",
+            "true":true
+        },{
+            "option":"virtual elements",
+            "true":false
+        },{
+            "option":"shadow DOM",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":16,
+        "question":"What do you call a React component that catches JavaScript errors anywhere in the child component tree",
+
+        "answers":[{
+            "option":"error bosses",
+            "true":false
+        },{
+            "option":"error catchers",
+            "true":false
+        },{
+            "option":"error boundaries",
+            "true":true
+        },{
+            "option":"error helpers",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":17,
+        "question":"All React components must act like _ with respect to their props",
+
+        "answers":[{
+            "option":"pure function",
+            "true":true
+        },{
+            "option":"monads",
+            "true":false
+        },{
+            "option":"recursive function",
+            "true":false
+        },{
+            "option":"higher-order functions",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":18,
+        "question":"Why should you use React Router's Link component instead of a basic <a> tag in React",
+
+        "answers":[{
+            "option":"The link component allows the user to use the browser's Back button",
+            "true":false
+        },{
+            "option":"There is no difference--the Link component is just another name for the <a> tag",
+            "true":false
+        },{
+            "option":"The <a> tag triggers a full page reload, while the Link component does not",
+            "true":true
+        },{
+            "option":"The <a> tag will cause an error when used in React",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":19,
+        "question":"When a javaScript function is invoked (called) in Node, where is a new frame placed",
+
+        "answers":[{
+            "option":"the call stack",
+            "true":true
+        },{
+            "option":"the event loop",
+            "true":false
+        },{
+            "option":"the poll phase",
+            "true":false
+        },{
+            "option":"events queue",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":20,
+        "question":"Which fs module method can be used to read the content of a file without buffering it in memory",
+
+        "answers":[{
+            "option":"createReadStream",
+            "true":true
+        },{
+            "option":"read",
+            "true":false
+        },{
+            "option":"readFile",
+            "true":false
+        },{
+            "option":"readFileSync",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":21,
+        "question":"Which of the following objects is a stream",
+
+        "answers":[{
+            "option":"process",
+            "true":false
+        },{
+            "option":"process.uptime",
+            "true":false
+        },{
+            "option":"process.stdout",
+            "true":true
+        },{
+            "option":"Buffer",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":22,
+        "question":"How do you make an HTTP server object active and listen to requests on certain ports",
+
+        "answers":[{
+            "option":"server. start",
+            "true":false
+        },{
+            "option":"server.activate",
+            "true":false
+        },{
+            "option":"server.listen",
+            "true":true
+        },{
+            "option":"server.run",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":23,
+        "question":"How do you start a Node application, if the entry file is indexjs",
+
+        "answers":[{
+            "option":"node index.js",
+            "true":true
+        },{
+            "option":"node start",
+            "true":false
+        },{
+            "option":"start index.js",
+            "true":false
+        },{
+            "option":"nodemon start",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":24,
+        "question":"Which library provides Node.js with the event loop",
+
+        "answers":[{
+            "option":"c-ares",
+            "true":false
+        },{
+            "option":"v8",
+            "true":false
+        },{
+            "option":"Libuv",
+            "true":true
+        },{
+            "option":"events",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":25,
+        "question":"What is used for parsing and running Javascript in Node.js",
+
+        "answers":[{
+            "option":"Google v8",
+            "true":true
+        },{
+            "option":"Eventloop",
+            "true":false
+        },{
+            "option":"Libuv",
+            "true":false
+        },{
+            "option":"Express.js",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":26,
+        "question":"Which choice is a core module in Node",
+
+        "answers":[{
+            "option":"crypto",
+            "true":true
+        },{
+            "option":"chalk",
+            "true":false
+        },{
+            "option":"webpack",
+            "true":false
+        },{
+            "option":"request",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":27,
+        "question":"What does REPL stand for",
+
+        "answers":[{
+            "option":"run, examine, put, loop",
+            "true":false
+        },{
+            "option":"run, edit, print, loop",
+            "true":false
+        },{
+            "option":"read, eval, print, loop",
+            "true":true
+        },{
+            "option":"read, extend, print, loop",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":28,
+        "question":"Which MongoDB shell command should you use to back up a database",
+
+        "answers":[{
+            "option":"restore",
+            "true":false
+        },{
+            "option":"backup",
+            "true":false
+        },{
+            "option":"mongodump",
+            "true":true
+        },{
+            "option":"mongobackup",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":29,
+        "question":"How do you find documents with a matching item in an embedded array",
+
+        "answers":[{
+            "option":"db.customers.find ({'jobs':'secretary'})",
+            "true":true
+        },{
+            "option":"db.customers.findmatch ({'jobs':'secretary'})",
+            "true":false
+        },{
+            "option":"db.customers.find ({'jobs:secretary'})",
+            "true":false
+        },{
+            "option":"db.customers.find ({'jobs':['secretary']})",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":30,
+        "question":"Which query bypasses the first 5 customers and returns the next 10",
+
+        "answers":[{
+            "option":"db.customers.find({}, {skip: 5, limit: 10})",
+            "true":false
+        },{
+            "option":"db.customers.find({}.page(5).take(10))",
+            "true":false
+        },{
+            "option":"db.customers.find({}).skip(5).limit(10)",
+            "true":true
+        },{
+            "option":"db.customers.find({}).skip(5).take(10)",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":31,
+        "question":"How do you create a text index",
+
+        "answers":[{
+            "option":"db.customers.createIndex({firstName, lastName})",
+            "true":false
+        },{
+            "option":"db.customers.createTextIndex({firstName, lastName})",
+            "true":false
+        },{
+            "option":"db.customers.createIndex({firstName: 'text', lastName: 'text'})",
+            "true":true
+        },{
+            "option":"db.customers.createText({firstName: 1, lastName: 1})",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":32,
+        "question":"To import a CSV file into MongoDB, which command should you issue",
+
+        "answers":[{
+            "option":"mongorestore",
+            "true":false
+        },{
+            "option":"mongoi",
+            "true":false
+        },{
+            "option":"mongoimport",
+            "true":true
+        },{
+            "option":"upload",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":33,
+        "question":"You would like to know how many different categories you have. Which query will best get the job done",
+
+        "answers":[{
+            "option":"db.vehicle.distinct('category').length",
+            "true":true
+        },{
+            "option":"db.vehicle.distinct('category')",
+            "true":false
+        },{
+            "option":"db.vehicle.unique('category')",
+            "true":false
+        },{
+            "option":"db.vehicle.distinct('category').count()",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":34,
+        "question":"From the MongoDB shell, how do you create a new document in the customers collection",
+
+        "answers":[{
+            "option":"db.customers.add({name: 'Bob'})",
+            "true":false
+        },{
+            "option":"db.customers.create({name: 'Bob'})",
+            "true":false
+        },{
+            "option":"db.customers.save({name: 'Bob'})",
+            "true":true
+        },{
+            "option":"db.customers.new({name: 'Bob'})",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":35,
+        "question":"Using the MongoDB shell, how do you remove the customer collection and its indexes",
+
+        "answers":[{
+            "option":"db.customers.remove({}).indexes();",
+            "true":false
+        },{
+            "option":"db.customers.remove({});",
+            "true":false
+        },{
+            "option":"db.customers.drop();",
+            "true":true
+        },{
+            "option":"db.customers.delete();",
+            "true":false
+        }
+    ]
+    }

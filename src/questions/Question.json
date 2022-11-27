@@ -1,0 +1,115 @@
+[
+    {
+        "number":1,
+        "question":"How is a forEach statement different from a for statement",
+        "answers":[{
+            "option":"Only a for statement uses a callback function",
+            "true":false
+        },{
+            "option":"A for statement is generic, but a forEach statement can be used only with an array",
+            "true":true
+        },{
+            "option":"Only a forEach statement lets you specify your own iterator",
+            "true":false
+        },{
+            "option":"A forEach statement is generic, but a for statement can be used only with an array",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":2,
+        "question":"Which property references the DOM object that dispatched an event",
+
+        "answers":[{
+            "option":"self",
+            "true":false
+        },{
+            "option":"object",
+            "true":false
+        },{
+            "option":"target",
+            "true":true
+        },{
+            "option":"source",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":3,
+        "question":"Which method converts JSON data to a JavaScript object",
+
+        "answers":[{
+            "option":"JSON.fromString()",
+            "true":false
+        },{
+            "option":"JSON.toObject()",
+            "true":false
+        },{
+            "option":"JSON.stringify()",
+            "true":false
+        },{
+            "option":"JSON.parse()",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":3,
+        "question":"Which method converts JSON data to a JavaScript object",
+
+        "answers":[{
+            "option":"JSON.fromString()",
+            "true":false
+        },{
+            "option":"JSON.toObject()",
+            "true":false
+        },{
+            "option":"JSON.stringify()",
+            "true":false
+        },{
+            "option":"JSON.parse()",
+            "true":true
+        }
+    ]
+    },
+    {
+        "number":4,
+        "question":"What is one difference between collections created with Map and collections created with Object",
+
+        "answers":[{
+            "option":"You can iterate over values in a Map in their insertion order.",
+            "true":false
+        },{
+            "option":"You can count the records in a Map with a single method call",
+            "true":true
+        },{
+            "option":"Keys in Maps can be strings",
+            "true":false
+        },{
+            "option":"You can access values in a Map without iterating over the whole collection",
+            "true":false
+        }
+    ]
+    },
+    {
+        "number":5,
+        "question":"Which of the following is not a keyword in JavaScript",
+
+        "answers":[{
+            "option":"this",
+            "true":false
+        },{
+            "option":"catch",
+            "true":false
+        },{
+            "option":"array",
+            "true":true
+        },{
+            "option":"function",
+            "true":false
+        }
+    ]
+    }
+]
