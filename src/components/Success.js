@@ -1,11 +1,15 @@
 import { Box, Button, Container, Typography } from "@mui/material";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 export default function Success() {
+  const [percent, setPercent] = useState(null);
   const navigate = useNavigate("");
-  const mark = localStorage.getItem("mark");
-  const count = localStorage.getItem("count");
-  const percent = (mark / count) * 100;
+  useEffect(() => {
+    const mark = localStorage.getItem("mark");
+    const count = localStorage.getItem("count");
+    setPercent(Math.round((mark / count) * 100));
+  }, []);
   return (
     <Box sx={{ background: "#3f51b5", width: "100vw", height: "100vh" }}>
       <Container

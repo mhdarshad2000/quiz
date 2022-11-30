@@ -29,17 +29,17 @@
 .successGif{
     width:400px;
     height:300px;
-    @media(max-width:751px){
+    @media(max-width:850px){
         width: 300px;
         height: 255px;
     }
-    @media(max-width:535px){
+    @media(max-width:650px){
         display: none;
     }
 }
 .successImg{
     display: none;
-    @media(max-width:535px){
+    @media(max-width:650px){
         display: block;
         height: 150px;
         width: 150px;
