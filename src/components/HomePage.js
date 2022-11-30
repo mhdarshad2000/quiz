@@ -22,7 +22,7 @@ export default function HomePage() {
           padding: "10px",
         }}
       >
-        Mern Live Quiz
+        Mern Quiz
       </Typography>
       <Button
         variant="contained"
