@@ -22,7 +22,7 @@ export default function Success() {
       >
         <Box
           sx={{
-            width: "50%",
+            width: {sx:"90%",md:"80%",lg:"50%"},
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
